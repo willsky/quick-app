@@ -1,0 +1,12 @@
+composer.lock
+app/api/conf/bootstrap.php
+app/api/conf/database.php
+app/api/conf/cache.php
+app/api/tmp/*
+app/api/logs/*
+
+app/html/conf/bootstrap.php
+app/html/conf/database.php
+app/html/conf/cache.php
+app/html/tmp/*
+app/html/logs/*

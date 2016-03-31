@@ -1,0 +1,22 @@
+<?php
+# 系统级错误
+define('ERROR_SYSTEM_CORE_MAX', 1000);
+define('ERROR_SYSTEM_CORE', 100);
+define('EXCEPTION_SYSTEM_CORE', 200);
+define('ERROR_MISS_DEPENDENCE', 201);
+# 数据库
+define('ERROR_MYSQL_CONNECT_FAIL', 1000);
+
+# 缓存
+define('ERROR_CACHE_CONNECT_FAIL', 1100);
+
+# 路由
+define('ERROR_ROUTER_NOT_FOUND', 1400);
+
+# 应用内错误在10000以上
+# 配置
+define('ERROR_MYSQL_CONFIG_ERROR', 10000);
+define('ERROR_CACHE_CONFIG_ERROR', 10001);
+
+# 通用错误
+define('ERROR_PARAMETER_UNAVAILABLE', 11101);
