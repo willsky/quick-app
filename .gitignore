@@ -10,3 +10,4 @@ app/html/conf/database.php
 app/html/conf/cache.php
 app/html/tmp/*
 app/html/logs/*
+vendor/*
