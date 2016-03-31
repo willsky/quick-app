@@ -5,6 +5,6 @@ namespace App\Api\Controllers;
 class Index extends BaseApi
 {
     public function index() {
-        $this->output(ALL_RIGHT, 'ok');
+        $this->output(ALL_RIGHT, 'ok', $this->model('Article')->getList());
     }
 }
