@@ -1,4 +1,5 @@
 <?php
+\Quick\Core\Config::load(CONF_PATH . DS . 'routers.php');
 \Quick\Core\Config::load(CONF_PATH . DS . 'cache.php');
 \Quick\Core\Config::load(CONF_PATH . DS . 'database.php');
 
